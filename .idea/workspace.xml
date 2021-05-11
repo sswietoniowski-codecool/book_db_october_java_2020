@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7305cfc0-d125-4011-9478-129459f9c179" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../fibonacci-variants/description/background.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fibonacci-variants/description/background.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../fibonacci-variants/description/hints.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fibonacci-variants/description/hints.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../fibonacci-variants/description/learn.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fibonacci-variants/description/learn.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../fibonacci-variants/description/story.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fibonacci-variants/description/story.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../fibonacci-variants/python/reference/fibonacci_variants.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fibonacci-variants/python/reference/fibonacci_variants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../fibonacci-variants/python/start/fibonacci_variants.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fibonacci-variants/python/start/fibonacci_variants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../fibonacci-variants/tasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../fibonacci-variants/tasks.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="7305cfc0-d125-4011-9478-129459f9c179" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ch2xlUN7F35nCOj2kjqjTRR22z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,10 +33,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -45,10 +51,16 @@
       <updated>1590966752276</updated>
       <workItem from="1590966754940" duration="1238000" />
       <workItem from="1592263336364" duration="64000" />
+      <workItem from="1620760825881" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../.." />
+    </ignored-roots>
   </component>
 </project>
