@@ -103,4 +103,5 @@ src/main/resources/database.properties
 # Exclude some IDEA files
 target/classes/*.*
 target/generated-sources/*.*
-.idea/workspace.xml
+**/.idea/workspace.xml
+**/.idea/tasks.xml
