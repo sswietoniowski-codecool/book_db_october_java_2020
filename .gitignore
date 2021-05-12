@@ -104,3 +104,4 @@ src/main/resources/database.properties
 target/classes/*.*
 target/generated-sources/*.*
 .idea/workspace.xml
+.idea/*.*
