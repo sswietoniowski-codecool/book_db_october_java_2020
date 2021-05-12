@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7305cfc0-d125-4011-9478-129459f9c179" name="Default Changelist" comment="" />
+    <list default="true" id="7305cfc0-d125-4011-9478-129459f9c179" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/BookDbManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/model/AuthorDaoJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/model/BookDaoJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookdb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bookdb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +24,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -37,22 +54,38 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2021-05-13 - October Java 2020/book_db_unit_testing_october_java_2020" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codecool.bookdb.Main" />
+      <module name="bookdb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codecool.bookdb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -71,6 +104,8 @@
       <workItem from="1620810447675" duration="506000" />
       <workItem from="1620812748793" duration="7000" />
       <workItem from="1620828881917" duration="150000" />
+      <workItem from="1620829190526" duration="833000" />
+      <workItem from="1620834511719" duration="5497000" />
     </task>
     <task id="LOCAL-00001" summary="Starter project">
       <created>1620761012510</created>
@@ -107,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620829007045</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Starter project">
+      <created>1620829405433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620829405433</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
