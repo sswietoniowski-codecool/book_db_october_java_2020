@@ -1,9 +1,8 @@
 package com.codecool.bookdb;
 
 import com.codecool.bookdb.manager.BookDbManager;
-import com.codecool.bookdb.model.Author;
-import com.codecool.bookdb.model.AuthorDao;
-import com.codecool.bookdb.model.AuthorDaoJdbc;
+import com.codecool.bookdb.model.*;
+import com.codecool.bookdb.view.UserInterface;
 
 import javax.sql.DataSource;
 import java.io.IOException;
@@ -16,15 +15,10 @@ import java.util.logging.Logger;
 public class Main {
     private static Logger logger = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
-        BookDbManager bookDbManager = new BookDbManager();
         try {
-            DataSource dataSource = bookDbManager.connect();
-            AuthorDao authorDao = new AuthorDaoJdbc(dataSource);
-            List<Author> authors = authorDao.getAll();
-            for (Author author : authors) {
-                System.out.println(author);
-            }
-        } catch (SQLException | IOException exception) {
+            UserInterface ui = new UserInterface(System.in, System.out);
+            new BookDbManager(ui).run();
+        } catch (Exception exception) {
             System.out.println("Program is closing due to an error");
             logger.warning(exception.getMessage());
         }
