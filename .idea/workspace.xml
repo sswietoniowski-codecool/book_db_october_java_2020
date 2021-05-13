@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7305cfc0-d125-4011-9478-129459f9c179" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/AuthorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/BookManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/BookDbManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/manager/BookDbManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/model/BookDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/model/BookDaoJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/view/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/bookdb/view/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +63,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +100,8 @@
       <workItem from="1620812748793" duration="7000" />
       <workItem from="1620828881917" duration="150000" />
       <workItem from="1620829190526" duration="833000" />
-      <workItem from="1620834511719" duration="8145000" />
+      <workItem from="1620834511719" duration="9136000" />
+      <workItem from="1620885169852" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Starter project">
       <created>1620761012510</created>
@@ -156,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620843365232</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solution implemented.">
+      <created>1620846229530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620846229530</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +171,7 @@
     </ignored-roots>
     <MESSAGE value="Starter project" />
     <MESSAGE value="AuthorDaoJdbc implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="AuthorDaoJdbc implemented." />
+    <MESSAGE value="Solution implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution implemented." />
   </component>
 </project>
